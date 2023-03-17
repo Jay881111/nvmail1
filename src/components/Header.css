@@ -1,0 +1,25 @@
+.header {
+  position: fixed;
+  height: 54px;
+  /* min-width: 1469px !important; */
+  width: 100%;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(107, 119, 172, 0.2);
+  box-shadow: 0 1px 5px 0 rgba(107, 119, 172, 0.2);
+  background-color: #fff;
+  z-index: 20;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+
+.sender {
+  width: 150px;
+  overflow: hidden;
+  height: 22px;
+}
+.iconlist {
+  position: relative;
+  /* display: flex; */
+  width: 200px;
+  justify-content: space-between;
+}
