@@ -134,7 +134,7 @@ function Mail({ sender_email, senderID, title }) {
                 </Box>
             </Modal>
 
-            <div className="text-[13px] w-[870px] flex items-center justify-between">
+            <div className="text-[13px] flex w-full items-center justify-between">
                 <div className="ml-2">
                     <Link
                         // to="/mail/:id"
@@ -147,7 +147,9 @@ function Mail({ sender_email, senderID, title }) {
                     <SearchIcon sx={{ color: 'black', fontSize: '15px' }} />
                     <DynamicFeedIcon sx={{ color: 'black', fontSize: '15px' }} />
                 </div>
-                <div className="text-[12px] relative right-[1%] text-right w-[130px] ">오후 01:16</div>
+                <div className="w-[130px] block">
+                    <div className="text-[12px] relative right-[2%] text-right  ">오후 01:16</div>
+                </div>
             </div>
         </div>
     );

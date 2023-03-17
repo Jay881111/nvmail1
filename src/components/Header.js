@@ -32,8 +32,8 @@ function Header() {
         <div className="header">
             <div className="flex items-center">
                 <Link to="/" className="flex items-center">
-                    <span className="text-[#02C75A] pl-1 text-[25px] font-[800]">N</span>
-                    <div className="text-[21px] ml-[4px] font-[400]">메일</div>
+                    <span className="text-[#02C75A] pl-1 text-[25px] font-bold">N</span>
+                    <div className="text-[21px] ml-[4px] font-[500]">메일</div>
                 </Link>
             </div>
             <div className="iconlist items-center hidden md:flex">
