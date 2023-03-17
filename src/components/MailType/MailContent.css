@@ -1,11 +1,11 @@
 h1 {
-  font-size: 19px;
-  font-weight: 600;
-  margin-left: 2px;
+    font-size: 19px;
+    font-weight: 600;
+    margin-left: 2px;
 }
 
 .mail {
-  position: relative;
-  display: flex;
-  padding: 8px 10px 8px 11px;
+    position: relative;
+    display: flex;
+    padding: 8px 10px 8px 11px;
 }
