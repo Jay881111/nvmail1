@@ -1,22 +1,33 @@
 .mail_button {
-    margin-top: 15px;
-    /* margin-left: 15px; */
-    background-color: #02c75a;
-    color: white;
-    display: flex;
-    border-radius: 6px;
-    height: 36px;
-    font-size: 14.5px;
-    font-weight: 500;
+  margin-top: 15px;
+  /* margin-left: 15px; */
+  background-color: #02c75a;
+  color: white;
+  display: flex;
+  border-radius: 6px;
+  height: 36px;
+  font-size: 14.5px;
+  font-weight: 500;
+}
+
+.section {
+  margin-left: 1px;
+}
+
+.focus:focus {
+  color: #0173e5;
+  font-weight: bold;
+  background-color: #e0eaf9;
+  border-radius: 5px;
 }
 
 input:focus {
-    outline: none;
+  outline: none;
 }
 
 .sidebar {
-    overflow: scroll;
-    /* overflow: hidden; */
-    height: 800px;
-    /* 메일 리스트도 똑같이 높이 세팅하고 overflow적용하기 */
+  overflow: scroll;
+  /* overflow: hidden; */
+  height: 800px;
+  /* 메일 리스트도 똑같이 높이 세팅하고 overflow적용하기 */
 }
